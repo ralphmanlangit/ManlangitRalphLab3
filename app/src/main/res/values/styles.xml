@@ -8,4 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="MyTheme" parent="android:Theme.Material.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryLightColor</item>
+        <item name="colorAccent">@color/primaryDarkColor</item>
+        <item name="primaryTextColor">@color/primaryTextColor</item>
+    </style>
+
 </resources>

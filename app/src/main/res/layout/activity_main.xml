@@ -6,27 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="385dp"
-        android:layout_height="66dp"
-        android:background="@android:color/holo_blue_dark"
-        android:gravity="center_vertical"
-        android:paddingLeft="15dp"
-        android:text="Styles & Material Design"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="1dp" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="244dp"
         app:srcCompat="@drawable/picture"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="67dp" />
+        tools:layout_editor_absoluteY="0dp" />
 
     <TextView
         android:id="@+id/textView2"
@@ -39,7 +25,7 @@
         android:textStyle="bold"
         app:fontFamily="@font/prociono"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="311dp" />
+        tools:layout_editor_absoluteY="244dp" />
 
     <TextView
         android:id="@+id/textView3"
@@ -51,7 +37,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="374dp" />
+        tools:layout_editor_absoluteY="307dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -62,7 +48,7 @@
         android:textColor="@android:color/black"
         android:textSize="18sp"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="425dp" />
+        tools:layout_editor_absoluteY="358dp" />
 
     <Button
         android:id="@+id/button"
@@ -70,7 +56,7 @@
         android:layout_height="wrap_content"
         android:text="BACK"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="503dp" />
+        tools:layout_editor_absoluteY="447dp" />
 
     <Button
         android:id="@+id/button2"
@@ -78,5 +64,5 @@
         android:layout_height="wrap_content"
         android:text="NEXT"
         tools:layout_editor_absoluteX="280dp"
-        tools:layout_editor_absoluteY="503dp" />
+        tools:layout_editor_absoluteY="447dp" />
 </android.support.constraint.ConstraintLayout>

@@ -2,5 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/prociono</item>
+        <item>@font/raleway_extralight</item>
+        <item>@font/raleway_thin</item>
     </array>
 </resources>
